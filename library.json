@@ -1,0 +1,24 @@
+{
+	"name": "akTempSensorDS",
+	"keywords": "esp32, akTempSensorDS, OneWire, DallasTemperature, Temp, Sensors",
+	"description": "Messen mit OneWire und DallasTemperature vereinfacht. Mit auto Pin Suche und MQTT vorbereitung.",
+	"authors":
+	[
+	    {
+	        "name": "Alexamder Koehler",
+	        "email": "alexander@koehler-kassel.de",
+	        "maintainer": true
+	    }
+	],
+	"repository":
+	{
+	    "type": "git",
+	    "url": "https://github.com/akalexk/akTempSensorDS"
+	},
+	"frameworks": "Arduino",
+	"platforms": "espressif32",
+	"license": "MIT",
+	"examples": [
+		"examples/*/*.ino"
+	]
+}

@@ -1,0 +1,11 @@
+# Schlüsselwörter für Datentypen:
+akTempSensorDS KEYWORD1
+
+# Schlüsselwörter für Methoden: KEYWORD2
+begin KEYWORD2
+dsSensor KEYWORD2
+TempMessen KEYWORD2
+findDevices KEYWORD2
+searchDevices KEYWORD2
+setPin KEYWORD2
+array_to_string KEYWORD2
