@@ -163,10 +163,10 @@ uint8_t akTempSensorDS::searchDevices(int pinMin, int pinMax )
   {
     if (pin > 6 && pin < 33 )
     {
-      Serial.print(pin);
-      Serial.print(" = ");
       find = findDevices(pin);
 #ifdef DEBUG
+      Serial.print(pin);
+      Serial.print(" = ");
       Serial.println(find);
 #endif
       if (find>0) {return pin;}
